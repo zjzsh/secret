@@ -1,0 +1,28 @@
+﻿* { margin: 0; padding: 0 }
+a {text-decoration: none; transition: All 1s ease; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; }
+body { font: 12px "宋体", "Arial Narrow", helvetica; line-height: 1.5; background: #333; }
+header { width: 100%;background: #222; height: 70px; border-bottom: #000 1px solid;  }
+header nav { margin: 0 auto; width: 1000px; text-align: center; padding-top: 15px }
+header nav ul li { line-height: 40px; display: inline }
+header nav ul li a { color: #E7E7E7; display: block; padding: 0 58px; margin-right: 45px; float:left; }
+header nav ul li a:hover{ color: #f00; background: rgba(20, 20, 20, 0.8); box-shadow: 5px 5px 5px rgba(255,255,255,.1), inset 5px 10px 10px rgba(0,0,0,.5); border-radius: 8px; }
+/*顶部*/
+h1 { text-align: center; color:red;}
+.photo {background-color: #222; position: relative; width:1000px; height:400px; margin:0px auto; }
+img { position: absolute; top:50px; left:100px; cursor: none;
+padding:10px 10px 25px; background-color: #fff; border:1px solid #333;
+transition:0.5s; box-shadow: 3px 3px 3px #ccc;
+}
+.img1 { left:40px; top:20px; transform:rotate(30deg); z-index: 1;}
+.img2 { left:150px; top:156px; transform:rotate(-30deg); z-index: 1;}
+.img3 { left:350px; top:60px; transform:rotate(30deg); z-index: 1;}
+.img4 { left:458px; top:120px; transform:rotate(30deg); z-index: 1;}
+.img5 { left:684px; top:90px; transform:rotate(-40deg); z-index: 1;}
+img:hover { transform:rotate(0deg); transform:scale(1.5); box-shadow: 6px 6px 6px #656565; z-index: 2;}
+
+
+
+
+
+
+
