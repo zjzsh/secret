@@ -1,0 +1,12 @@
+h1 { text-align: center; color:red;}
+.photo {background-color: #222; position: relative; width:1000px; height:400px; margin:0px auto; }
+img { position: absolute; top:50px; left:100px; cursor: none;
+padding:10px 10px 25px; background-color: #fff; border:1px solid #333;
+transition:0.5s; box-shadow: 3px 3px 3px #ccc;
+}
+.img1 { left:40px; top:20px; transform:rotate(30deg); z-index: 1;}
+.img2 { left:150px; top:156px; transform:rotate(-30deg); z-index: 1;}
+.img3 { left:350px; top:60px; transform:rotate(30deg); z-index: 1;}
+.img4 { left:458px; top:120px; transform:rotate(30deg); z-index: 1;}
+.img5 { left:684px; top:90px; transform:rotate(-40deg); z-index: 1;}
+img:hover { transform:rotate(0deg); transform:scale(1.5); box-shadow: 6px 6px 6px #656565; z-index: 2;}
